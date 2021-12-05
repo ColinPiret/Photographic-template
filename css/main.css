@@ -1,0 +1,534 @@
+/* CSS 2021-08-30 */
+
+/* GENERALS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    --secondary: #A7C44C;
+    --textcolor: #4d4d4d;
+    --third: #6d7677;
+    --textsize: 12px;
+    --titre1: 28px;
+    --titre2: 24px;
+    --titre3: 18px;
+
+}
+
+body {
+
+    
+  font-family: "Poppins", sans-serif;
+  font-size: var(--textsize);
+  color: var(--textcolor);
+
+
+}
+
+h5{
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h1 {
+
+    font-size: 28px;
+    font-weight: lighter;
+
+}
+
+.traitvert{
+
+   margin:  auto;
+   margin-bottom: 2rem;
+    width: 60px;
+    height: 5px;
+    background-color: var(--secondary);
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(64, 71, 68);
+}
+
+header ul{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+header li{
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+header a {
+
+    color: var(--secondary);
+    transition: 0.3s;
+}
+
+header a:hover {
+
+    color: white;
+}
+nav{
+
+ 
+   text-align: center;
+    align-items: center;
+    background-color: var(--third);
+    color: var(--secondary);
+}
+
+.maintitre{
+
+    padding: 0.5rem;
+    background-color: rgb(84, 95, 93);
+
+}
+
+
+nav li{
+
+    line-height: 2rem;
+    width: 100%;
+    background: none;
+    transition: 0.2s;
+    
+}
+
+nav li:hover{
+background-color: var(--secondary);
+  
+}
+nav a{
+
+    color: white;
+}
+
+
+
+.slider{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+background-image: url(../img/back.jpeg);
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+color: var(--secondary);
+
+}
+
+.slider h1 {
+
+  
+    font-weight: lighter;
+}
+
+.slider p, button{
+
+    margin: 0.6rem;
+}
+
+.slider button{
+
+    padding: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    transition: 0.2s}
+
+.slider button:hover{
+
+    background-color: rgb(110, 146, 37);
+}
+
+main {
+
+    padding: 0 1rem 0 1rem ;
+}
+
+
+main h1{
+
+   
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    border-color: var(--secondary);
+   /* border-bottom-width: 10px; 
+     border-bottom: solid; */
+}
+
+section{
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.containerAbout{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgback{
+    width: 300px;
+    height: auto;
+    margin-top: 0.5rem;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 0px var(--secondary);
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+
+}
+
+
+
+
+.containerAbout div div{
+
+    
+    margin: 1rem;
+    text-align: justify;
+
+}
+
+.containerAbout h2{
+
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 500;
+
+   
+}
+
+
+
+.about img{
+
+    width: 100%;
+    vertical-align: bottom;
+    transform: translatex(20px) translateY(-5px);
+
+}
+
+
+
+
+.services p{
+
+    text-align: center;
+}
+
+.containerservices{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+    align-items: center;
+}
+
+.containerservices div{
+
+    
+    margin: 0.3rem 0 0.3rem 0 ;
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-width: 0.1rem;
+    border-color: var(--secondary);
+    border-radius: 7px;
+    background-color: rgb(238, 238, 238);
+}
+
+.containerservices div p{
+
+    
+    text-align: justify;
+}
+
+.servicesquote{
+
+    margin-bottom: 2rem;
+
+}
+
+
+.containerteam{
+
+ text-align: center;
+
+}
+
+.teamMember{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 13px;
+   
+
+}
+
+
+.teamMember div{
+
+    padding: 0.5rem 0 0.5rem 0;
+
+
+}
+
+.teamMember div img {
+    
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 5px 5px 0px var(--secondary);
+
+}
+
+.teamMember div h5 {
+
+    margin-top: 0.5rem;
+
+}
+
+
+.contactquote{
+
+    text-align: center;
+}
+
+.containercontact{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.containercontact h5{
+
+   margin: 0.5rem 0 0.5rem 0;
+
+
+}
+
+.contactinfo div{
+
+margin: 2rem 0 2rem 0;
+
+}
+
+.formcontact{
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+input{
+
+    width: 100%;
+    height: 30px;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--textcolor);
+}
+
+input[type=text]:focus{
+
+    border: none;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: var(--secondary);
+}
+
+.submit{
+
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    transition: 0.3s;
+}
+.submit:hover{
+
+    filter: brightness(85%);
+}
+
+.messageinput{
+
+    height: 100px;
+
+}
+
+
+
+footer{
+
+    padding: 0.3rem;
+    background-color: var(--secondary);
+    text-align: center;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.0);
+}
+
+footer i{
+
+    color: white;
+    transition: 0.2s;
+}
+footer i:hover{
+
+    color: #dbdbdb;
+
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (min-width: 962px){
+
+    main {
+
+        padding: 0 1.5rem 0 1.5rem ;
+    }
+
+    .maintitre{
+
+        background: none;
+    }
+
+    nav{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--third);
+        color: var(--secondary);
+        padding: 0.5rem;
+    }
+
+nav ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+
+    margin: 0 0.5rem 0 0.5rem ;
+}
+
+
+.slider{
+
+    padding: 4rem;
+}
+
+
+.aboutinfo{
+
+    width: 50%;
+    margin-left: 2rem;
+    
+}
+
+.about h2{
+
+    text-align: justify;
+}
+
+.servicesquote{
+
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+.containerservices{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem 0 3rem;
+  
+}
+
+.containerservices div{
+
+
+    width: 400px;
+   
+
+}
+
+.teamMember div{
+
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+
+
+.formcontact{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+
+
+}
+
+
+
+@media (min-width: 1024px){
+
+    
+    main {
+
+        padding: 0 2rem 0 2rem ;
+    }
+
+}
